@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telefone.css">
+    <title>telefone</title>
+</head>
+    <style></style>
+<body>
+    <div class="text" name="agenda">
+        Agenda Telefônica
+    </div>
+    <br>
+    <form action="inserir.php" method="post">
+        Cadastre um nome
+        <br>
+        <input type="text" name ="nome">
+        <br>
+        <br>
+        Insira um email
+        <br>
+        <input type="text" name ="email">
+        <br>
+        <br>
+        Insira um telefone
+        <br>
+        <input type="number" name="telefone">
+        <br>
+        <br>
+
+
+         <button onclick="mostrar();">
+            <img src="inserir.png" width="20px">
+            <br>
+            Inserir
+        </button>    
+        <button onclick="mostrar();">
+            <img src="alterar.png" width="20px">
+            <br>
+            Alterar
+        </button>      
+        <button onclick="mostrar();">
+            <img src="listar.png" width="20px">
+            <br>
+            Listar
+        </button>   
+        <button onclick="mostrar();">
+            <img src="excluir.png" width="20px">
+            <br>
+            Excluir
+        </button>   
+    </form>
+</body>
+</html>
